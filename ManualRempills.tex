@@ -1,0 +1,158 @@
+\documentclass[10pt]{book}
+\usepackage{cdt/cdtBusiness}
+\usepackage{requerimientos}
+\usepackage{graphicx}
+\usepackage{paear}
+\usepackage{subfigure}
+\usepackage{cite}
+\usepackage{float}
+\usepackage[spanish]{babel}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Datos del proyecto
+
+\organizacion[]{Escuela Superior de Cómputo}
+\autor[]{Instituto Politécnico Nacional}
+\sistema[]{Asistente Móvil para el Seguimiento de Tratamientos Médicos (Rem-Pills)}
+\proyecto[]{}
+\documento{}{Manual de Usuario}%{\RELEASE{1.0}}%{\DRAFT{\today}} 
+
+\entregable{}{\Large{Asistente Móvil para el Seguimiento de Tratamientos Médicos (Rem-Pills)}}
+
+% Descomentar y establecer la fecha cuando se desee congelar la fecha del documento.
+%\fecha{12 de Abril de 2013}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Datos para revisión
+%\elaboro[Alumnos de la Licenciatura en Ingeniería en Sistemas Computacionales IPN - ESCOM]{Cesar Raúl Avila Padilla\vspace{0.4cm} Ivo Sebastián Sam Álvarez-Tostado\vspace{0.4cm}} % Responsable del contenido (IPN) Lic. Ulises Vélez Saldaña
+%\superviso[Alumnos de la Licenciatura en Ingeniería en Sistemas Computacionales IPN - ESCOM]{Cesar Raúl Avila Padilla\vspace{0.4cm} Ivo Sebastián Sam Álvarez-Tostado\vspace{0.4cm}}
+%\aprobo[Directores del Trabajo Terminal 2017-A108]{M. en C. Ulises Velez Saldaña\\ M. en C. José David Ortega Pacheco} % Responsable Técnico (Contraparte)
+
+%\title{\varProyecto}
+%\subtitle{\varCveDocumento--\varDocumento}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Documentos relacionados con el documento actual
+
+% TODO: Escriba los documentos en los que está basado este documento.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Elementos contenidos en el documento
+
+% TODO: Al finalizar el análisis resuma aquí todos los elementos del componente: RN, CU, IU, MSG.
+%\elemRefs{
+%
+%	%Glosario de términos
+%   \elemItem{Glosario de términos}{1.0}{Descripción de los terminos técnicos y de negocio utilizados}
+%%---------------------------------------------------------------------------------------------------------------------------------------
+%
+%	%Modelo de información
+%   \elemItem{Modelo Registro de escuelas}{1.0}{Descripción del modelo de información del Registro de escuelas}
+%
+%}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\renewcommand{\listtablename}{Índice de tablas}
+\renewcommand{\tablename}{Tabla} 
+
+%=========================================================
+% Portada
+\ThisLRCornerWallPaper{1}{cdt/theme/agua.png}
+\thispagestyle{empty}
+
+\maketitle
+ 
+%=========================================================
+% Hoja de revisión
+%\makeDocInfo
+%\vspace{0.5cm}
+%\makeElemRefs
+%\makeDocRefs
+%\makeObservaciones[3cm]
+%\vspace{0.5cm}
+%\makeFirmas
+
+%=========================================================
+% Indices del documento
+\frontmatter
+ \LRCornerWallPaper{1}{cdt/theme/pleca.png}
+\tableofcontents
+\listoffigures
+%\listoftables
+\mainmatter
+
+% Para esconder la información del documentador se descomenta el \hideControlVersion
+ \hideControlVersion
+ 
+\chapter{Paciente}\newpage
+\cfinput{Paciente/RegistrodeCuenta/mu}%%Registro de cuenta
+\newpage
+\cfinput{Paciente/IniciarSesion/mu}%%Iniciar sesión
+\newpage
+\cfinput{Paciente/ConsultarDP/mu}%%Consultar Datos Personales
+\newpage
+\cfinput{Paciente/EditarDP/mu}%%Editar Datos Personales
+\newpage
+\cfinput{Paciente/CambiarContrasena/mu}%%CambiarContraseña
+\newpage
+\cfinput{Paciente/ConsultarTratamiento/mu}%%Consultar Tratamientos
+\newpage
+\cfinput{Paciente/InfoTratamiento/mu}%%Consultar Información de Tratamientos
+\newpage
+\cfinput{Paciente/AgregarTratamiento/mu}%%Agregar Tratamientos
+\newpage
+\cfinput{Paciente/AgregarMedicamento/mu}%%Agregar Medicamento
+\newpage
+\cfinput{Paciente/ConsultarRecordatorios/mu}%%Consultar Recordatorios
+\newpage
+\cfinput{Paciente/AgregarAuxiliar/mu}%%Agregar Auxiliar
+\newpage
+\cfinput{Paciente/ConsultarAuxiliar/mu}%%Consultar Auxiliar
+\newpage
+\cfinput{Paciente/EliminarAuxiliar/mu}%%Eliminar Auxiliar
+\newpage
+\cfinput{Paciente/ConsultarDoctor/mu}%%Consultar Doctor
+
+
+\chapter{Doctor}\newpage
+\cfinput{Doctor/RegistrodeCuenta/mu}%%Registro de Cuenta
+\newpage
+\cfinput{Doctor/IniciarSesion/mu}%%Iniciar Sesión 
+\newpage
+\cfinput{Doctor/ConsultarDP/mu}%%Consultar Datos Personales
+\newpage
+\cfinput{Doctor/EditarDP/mu}%%Editar Datos Personales
+\newpage
+\cfinput{Doctor/ConsultarPacientes/mu}%%Consultar Pacientes
+\newpage
+\cfinput{Doctor/ConsultarTratamientoP/mu}%%Consultar Tratamiento de Pacientes
+\newpage
+\cfinput{Doctor/AgregarPaciente/mu}%%Agregar Pacientes
+\newpage
+\cfinput{Doctor/AgregarTratamiento/mu}%%Agregar Tratamiento a Pacientes
+\newpage
+\cfinput{Doctor/AgregarMedicamento/mu}%%Agregar Medicamento a Pacientes
+
+\chapter{Auxiliar}\newpage
+\cfinput{Auxiliar/RegistrodeCuenta/mu}%%Registro de Cuenta 
+\newpage
+\cfinput{Auxiliar/IniciarSesion/mu}%%Iniciar Sesión 
+\newpage
+\cfinput{Auxiliar/ConsultarDP/mu}%%Consultar Datos Personales
+\newpage
+\cfinput{Auxiliar/EditarDP/mu}%%Editar Datos Personales
+\newpage
+\cfinput{Auxiliar/AgregarPaciente/mu}%%Agregar Pacientes
+\newpage
+\cfinput{Auxiliar/ConsultarTratamientoP/mu}%%Consultar Tratamiento de Pacientes
+\newpage
+\cfinput{Auxiliar/AgregarTratamiento/mu}%%Agregar Tratamiento a Pacientes
+\newpage
+\cfinput{Auxiliar/AgregarMedicamento/mu}%%Agregar Medicamento a Pacientes
+
+
+\end{document}

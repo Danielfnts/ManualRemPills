@@ -1,0 +1,66 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Paciente}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Registro de Cuenta}{2}{section.1.1}
+\contentsline {subsubsection}{Procedimiento}{2}{section*.3}
+\contentsline {section}{\numberline {1.2}Iniciar Sesi\IeC {\'o}n}{5}{section.1.2}
+\contentsline {subsubsection}{Procedimiento}{5}{section*.4}
+\contentsline {section}{\numberline {1.3}Consultar Datos Personales}{7}{section.1.3}
+\contentsline {subsubsection}{Procedimiento}{7}{section*.5}
+\contentsline {section}{\numberline {1.4}Editar Datos Personales}{9}{section.1.4}
+\contentsline {subsubsection}{Procedimiento}{9}{section*.6}
+\contentsline {section}{\numberline {1.5}Cambiar Contrase\IeC {\~n}a}{10}{section.1.5}
+\contentsline {subsubsection}{Procedimiento}{10}{section*.7}
+\contentsline {section}{\numberline {1.6}Consultar Tratamientos}{11}{section.1.6}
+\contentsline {subsubsection}{Procedimiento}{11}{section*.8}
+\contentsline {section}{\numberline {1.7}Consultar Informaci\IeC {\'o}n de Tratamientos}{13}{section.1.7}
+\contentsline {subsubsection}{Procedimiento}{13}{section*.9}
+\contentsline {section}{\numberline {1.8}Agregar Tratamiento}{15}{section.1.8}
+\contentsline {subsubsection}{Procedimiento}{15}{section*.10}
+\contentsline {section}{\numberline {1.9}Agregar Medicamento}{18}{section.1.9}
+\contentsline {subsubsection}{Procedimiento}{18}{section*.11}
+\contentsline {section}{\numberline {1.10}Consultar Recordatorios y Alertas}{22}{section.1.10}
+\contentsline {subsubsection}{Procedimiento}{22}{section*.12}
+\contentsline {section}{\numberline {1.11}Agregar Auxiliar}{24}{section.1.11}
+\contentsline {subsubsection}{Procedimiento}{24}{section*.13}
+\contentsline {section}{\numberline {1.12}Consultar Auxiliar}{27}{section.1.12}
+\contentsline {subsubsection}{Procedimiento}{27}{section*.14}
+\contentsline {section}{\numberline {1.13}Eliminar Auxiliar}{29}{section.1.13}
+\contentsline {subsubsection}{Procedimiento}{29}{section*.15}
+\contentsline {section}{\numberline {1.14}Consultar Doctor}{31}{section.1.14}
+\contentsline {subsubsection}{Procedimiento}{31}{section*.16}
+\contentsline {chapter}{\numberline {2}Doctor}{33}{chapter.2}
+\contentsline {section}{\numberline {2.1}Registro de Cuenta}{34}{section.2.1}
+\contentsline {subsubsection}{Procedimiento}{34}{section*.17}
+\contentsline {section}{\numberline {2.2}Iniciar Sesi\IeC {\'o}n}{37}{section.2.2}
+\contentsline {subsubsection}{Procedimiento}{37}{section*.18}
+\contentsline {section}{\numberline {2.3}Consultar Datos Personales}{39}{section.2.3}
+\contentsline {subsubsection}{Procedimiento}{39}{section*.19}
+\contentsline {section}{\numberline {2.4}Editar Datos Personales}{41}{section.2.4}
+\contentsline {subsubsection}{Procedimiento}{41}{section*.20}
+\contentsline {section}{\numberline {2.5}Consultar Pacientes}{42}{section.2.5}
+\contentsline {subsubsection}{Procedimiento}{42}{section*.21}
+\contentsline {section}{\numberline {2.6}Consultar Tratamientos de Pacientes}{44}{section.2.6}
+\contentsline {subsubsection}{Procedimiento}{44}{section*.22}
+\contentsline {section}{\numberline {2.7}Agregar Paciente}{46}{section.2.7}
+\contentsline {subsubsection}{Procedimiento}{46}{section*.23}
+\contentsline {section}{\numberline {2.8}Agregar Tratamiento a Paciente Nuevo}{49}{section.2.8}
+\contentsline {subsubsection}{Procedimiento}{49}{section*.24}
+\contentsline {section}{\numberline {2.9}Agregar Medicamento}{52}{section.2.9}
+\contentsline {subsubsection}{Procedimiento}{52}{section*.25}
+\contentsline {chapter}{\numberline {3}Auxiliar}{57}{chapter.3}
+\contentsline {section}{\numberline {3.1}Registro de Cuenta}{58}{section.3.1}
+\contentsline {subsubsection}{Procedimiento}{58}{section*.26}
+\contentsline {section}{\numberline {3.2}Iniciar Sesi\IeC {\'o}n}{61}{section.3.2}
+\contentsline {subsubsection}{Procedimiento}{61}{section*.27}
+\contentsline {section}{\numberline {3.3}Consultar Datos Personales}{63}{section.3.3}
+\contentsline {subsubsection}{Procedimiento}{63}{section*.28}
+\contentsline {section}{\numberline {3.4}Editar Datos Personales}{65}{section.3.4}
+\contentsline {subsubsection}{Procedimiento}{65}{section*.29}
+\contentsline {section}{\numberline {3.5}Agregar Paciente}{66}{section.3.5}
+\contentsline {subsubsection}{Procedimiento}{66}{section*.30}
+\contentsline {section}{\numberline {3.6}Consultar Tratamientos}{69}{section.3.6}
+\contentsline {subsubsection}{Procedimiento}{69}{section*.31}
+\contentsline {section}{\numberline {3.7}Agregar Tratamiento}{71}{section.3.7}
+\contentsline {subsubsection}{Procedimiento}{71}{section*.32}
+\contentsline {section}{\numberline {3.8}Agregar Medicamento}{74}{section.3.8}
+\contentsline {subsubsection}{Procedimiento}{74}{section*.33}
